@@ -1,0 +1,12 @@
+create table SITE_USER (firstname VARCHAR(30), lastname VARCHAR(30) , email VARCHAR(40), PASSWORD VARCHAR(100));
+Select * from SITE_USER where firstname = 'Hari'
+
+Insert into SITE_USER values('Gopi2','v','gopi@gmail.com','Admin123#')
+
+select * from SITE_USER;
+
+Update SITE_USER set firstname= 'Sreenu' where firstname = 'Gopi2'
+
+delete from SITE_USER where firstname= 'Sreenu'
+
+drop table SITE_USER
